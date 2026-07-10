@@ -110,6 +110,16 @@ h3 {
   white-space: nowrap;
 }
 
+.intro-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
 .layout-grid,
 .dashboard-grid {
   display: grid;
@@ -265,6 +275,21 @@ select:focus {
   margin-top: 28px;
   color: var(--muted);
   line-height: 1.7;
+}
+
+.manual-download {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  border: 1px solid var(--accent);
+  border-radius: 7px;
+  padding: 0 15px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .config-error {
